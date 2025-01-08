@@ -36,3 +36,12 @@ alias ssh@mhdc2="ssh msconawr@mh-dc-sw2 -oHostKeyAlgorithms=+ssh-rsa"
 
 #Utility aliases
 alias wetter="curl wttr.in/dortmund"
+# Requires: https://github.com/caarlos0/timer
+alias work="timer 60m && terminal-notifier -message 'Promodoro'\
+	- title 'Time is up! Take a Break'\
+	- sound Crystal"
+alias rest="timer 10m && terminal-notifier -message 'Promodoro'\
+	- title 'Break is over! Get back on track!'\
+	- sound Crystal"
+
+
