@@ -23,16 +23,7 @@ export PATH=$PATH:/usr/local/go/bin
 # export ARCHFLAGS="-arch $(uname -m)"
 
 #Custom aliases
-alias ssh@facility-server="ssh msconawr@129.217.131.200"
-alias ssh@main="ssh root@main.monitor.itmc.tu-dortmund.de"
-alias ssh@oh12="ssh root@main.monitor.itmc.tu-dortmund.de"
-alias ssh@mh="ssh root@main.monitor.itmc.tu-dortmund.de"
-alias ssh@dcim="ssh msconawr@129.217.129.251"
-alias ssh@cmkstage="ssh msconawr@129.217.125.222"
-alias ssh@oh12dc1="ssh msconawr@oh12-dc-sw1 -oHostKeyAlgorithms=+ssh-rsa"
-alias ssh@oh12dc2="ssh msconawr@oh12-dc-sw2 -oHostKeyAlgorithms=+ssh-rsa"
-alias ssh@mhdc1="ssh msconawr@mh-dc-sw1 -oHostKeyAlgorithms=+ssh-rsa"
-alias ssh@mhdc2="ssh msconawr@mh-dc-sw2 -oHostKeyAlgorithms=+ssh-rsa"
+
 
 #Utility aliases
 alias wetter="curl wttr.in/dortmund"
